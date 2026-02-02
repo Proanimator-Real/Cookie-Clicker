@@ -1,0 +1,20 @@
+# Useless Items
+
+This folder documents the intentionally redundant JavaScript files used by the project.
+
+The following files are considered "useless" (they all contain the same game logic duplicated across files):
+
+- game1.js
+- game2.js
+- game3.js
+- game4.js
+- game5.js
+- game6.js
+- game7.js
+- game8.js
+- game9.js
+- game10.js
+
+Notes
+- All ten files implement the same Cookie Clicker logic and differ only by a unique storage key. They were created as separate files on purpose.
+- If you want to remove the redundancy, refactoring into a single shared script (e.g., `game.js`) with a small theme loader is recommended.
